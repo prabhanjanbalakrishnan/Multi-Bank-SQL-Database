@@ -1,0 +1,425 @@
+transaction_id,account_id,transaction_date,category,transaction_type,transaction_amount_cents,description
+1,3,2026-01-01,Salary,Credit,285000,Payroll deposit
+2,5,2026-01-01,Salary,Credit,1450000,Payroll deposit
+3,8,2026-01-01,Salary,Credit,620000,Payroll deposit
+4,9,2026-01-01,Salary,Credit,310000,Payroll deposit
+5,3,2026-01-02,Rent,Debit,245000,Monthly rent
+6,5,2026-01-02,Rent,Debit,950000,Monthly rent
+7,8,2026-01-02,Rent,Debit,520000,Monthly rent
+8,8,2026-01-02,Groceries,Debit,10967,ShopRite
+9,9,2026-01-02,Rent,Debit,230000,Monthly rent
+10,8,2026-01-03,Dining,Debit,4414,Starbucks
+11,5,2026-01-04,Transportation,Debit,3400,Uber
+12,3,2026-01-05,Utilities,Debit,15195,Verizon
+13,1,2026-01-06,Utilities,Debit,6409,Con Edison
+14,1,2026-01-07,Transportation,Debit,2205,Shell Gas
+15,9,2026-01-07,Utilities,Debit,12065,Con Edison
+16,9,2026-01-07,Groceries,Debit,12248,Whole Foods
+17,1,2026-01-08,Groceries,Debit,10814,Trader Joe's
+18,3,2026-01-09,Transportation,Debit,1573,NJ Transit
+19,5,2026-01-09,Dining,Debit,1311,Blue Bottle Coffee
+20,8,2026-01-09,Utilities,Debit,19588,Con Edison
+21,9,2026-01-09,Transportation,Debit,5542,Shell Gas
+22,5,2026-01-10,Utilities,Debit,7674,PSE&G
+23,5,2026-01-13,Groceries,Debit,6669,ShopRite
+24,3,2026-01-15,Salary,Credit,285000,Payroll deposit
+25,3,2026-01-15,Groceries,Debit,12615,Whole Foods
+26,5,2026-01-15,Salary,Credit,1450000,Payroll deposit
+27,8,2026-01-15,Salary,Credit,620000,Payroll deposit
+28,8,2026-01-15,Transportation,Debit,5507,MTA
+29,9,2026-01-15,Salary,Credit,310000,Payroll deposit
+30,1,2026-01-19,Dining,Debit,8412,Starbucks
+31,8,2026-01-19,Groceries,Debit,9800,Whole Foods
+32,2,2026-01-20,Transfer,Credit,20000,Transfer from checking
+33,4,2026-01-20,Transfer,Credit,50000,Transfer from checking
+34,7,2026-01-20,Transfer,Credit,150000,Transfer from checking
+35,9,2026-01-20,Groceries,Debit,9107,Costco
+36,10,2026-01-20,Transfer,Credit,60000,Transfer from checking
+37,3,2026-01-23,Groceries,Debit,17246,Trader Joe's
+38,1,2026-01-24,Dining,Debit,2279,Blue Bottle Coffee
+39,1,2026-01-24,Shopping,Debit,38241,Amazon
+40,9,2026-01-24,Dining,Debit,4610,Sweetgreen
+41,3,2026-01-25,Dining,Debit,3215,Blue Bottle Coffee
+42,2,2026-01-28,Interest,Credit,828,Monthly interest
+43,4,2026-01-28,Interest,Credit,1500,Monthly interest
+44,5,2026-01-28,Groceries,Debit,14770,Costco
+45,6,2026-01-28,Interest,Credit,2000000,Monthly interest
+46,7,2026-01-28,Interest,Credit,21533,Monthly interest
+47,10,2026-01-28,Interest,Credit,28667,Monthly interest
+48,3,2026-02-01,Salary,Credit,285000,Payroll deposit
+49,5,2026-02-01,Salary,Credit,1450000,Payroll deposit
+50,8,2026-02-01,Salary,Credit,620000,Payroll deposit
+51,9,2026-02-01,Salary,Credit,310000,Payroll deposit
+52,3,2026-02-02,Rent,Debit,245000,Monthly rent
+53,5,2026-02-02,Rent,Debit,950000,Monthly rent
+54,8,2026-02-02,Rent,Debit,520000,Monthly rent
+55,9,2026-02-02,Rent,Debit,230000,Monthly rent
+56,8,2026-02-04,Groceries,Debit,13117,Stop & Shop
+57,3,2026-02-05,Groceries,Debit,11581,Costco
+58,3,2026-02-05,Transportation,Debit,4474,Lyft
+59,8,2026-02-05,Utilities,Debit,17145,PSE&G
+60,5,2026-02-06,Utilities,Debit,18382,PSE&G
+61,8,2026-02-06,Dining,Debit,8033,Starbucks
+62,1,2026-02-07,Dining,Debit,10792,Blue Bottle Coffee
+63,9,2026-02-07,Dining,Debit,3104,Shake Shack
+64,1,2026-02-08,Utilities,Debit,17216,Con Edison
+65,9,2026-02-09,Utilities,Debit,21923,Verizon
+66,3,2026-02-12,Utilities,Debit,8340,Con Edison
+67,1,2026-02-13,Shopping,Debit,20046,Amazon
+68,3,2026-02-14,Dining,Debit,7143,Shake Shack
+69,3,2026-02-15,Salary,Credit,285000,Payroll deposit
+70,5,2026-02-15,Salary,Credit,1450000,Payroll deposit
+71,5,2026-02-15,Transportation,Debit,4634,MTA
+72,8,2026-02-15,Salary,Credit,620000,Payroll deposit
+73,9,2026-02-15,Salary,Credit,310000,Payroll deposit
+74,9,2026-02-17,Groceries,Debit,6986,ShopRite
+75,3,2026-02-18,Groceries,Debit,12109,Costco
+76,2,2026-02-20,Transfer,Credit,20000,Transfer from checking
+77,4,2026-02-20,Transfer,Credit,50000,Transfer from checking
+78,5,2026-02-20,Dining,Debit,1640,Chipotle
+79,7,2026-02-20,Transfer,Credit,150000,Transfer from checking
+80,10,2026-02-20,Transfer,Credit,60000,Transfer from checking
+81,1,2026-02-21,Transportation,Debit,4389,Lyft
+82,5,2026-02-21,Groceries,Debit,8742,Stop & Shop
+83,8,2026-02-22,Groceries,Debit,12243,ShopRite
+84,1,2026-02-27,Groceries,Debit,5332,Trader Joe's
+85,1,2026-02-27,Dining,Debit,1125,Shake Shack
+86,9,2026-02-27,Groceries,Debit,20135,Costco
+87,2,2026-02-28,Interest,Credit,828,Monthly interest
+88,4,2026-02-28,Interest,Credit,1500,Monthly interest
+89,5,2026-02-28,Groceries,Debit,7092,Trader Joe's
+90,6,2026-02-28,Interest,Credit,2000000,Monthly interest
+91,7,2026-02-28,Interest,Credit,21533,Monthly interest
+92,10,2026-02-28,Interest,Credit,28667,Monthly interest
+93,3,2026-03-01,Salary,Credit,285000,Payroll deposit
+94,5,2026-03-01,Salary,Credit,1450000,Payroll deposit
+95,8,2026-03-01,Salary,Credit,620000,Payroll deposit
+96,9,2026-03-01,Salary,Credit,310000,Payroll deposit
+97,1,2026-03-02,Shopping,Debit,18285,Apple Store
+98,3,2026-03-02,Rent,Debit,245000,Monthly rent
+99,5,2026-03-02,Rent,Debit,950000,Monthly rent
+100,8,2026-03-02,Rent,Debit,520000,Monthly rent
+101,9,2026-03-02,Rent,Debit,230000,Monthly rent
+102,1,2026-03-03,Dining,Debit,2903,Blue Bottle Coffee
+103,1,2026-03-03,Transportation,Debit,4663,NJ Transit
+104,3,2026-03-03,Transportation,Debit,3069,Uber
+105,8,2026-03-04,Groceries,Debit,6676,Stop & Shop
+106,1,2026-03-05,Utilities,Debit,15813,Con Edison
+107,5,2026-03-05,Utilities,Debit,7163,PSE&G
+108,5,2026-03-05,Travel,Debit,112811,Amtrak
+109,3,2026-03-07,Groceries,Debit,10091,ShopRite
+110,3,2026-03-08,Travel,Debit,95128,United Airlines
+111,5,2026-03-08,Groceries,Debit,5708,Whole Foods
+112,9,2026-03-08,Utilities,Debit,9139,Verizon
+113,3,2026-03-09,Utilities,Debit,14645,Spectrum
+114,1,2026-03-12,Dining,Debit,5638,Sweetgreen
+115,8,2026-03-12,Utilities,Debit,9981,Spectrum
+116,8,2026-03-12,Dining,Debit,7539,Chipotle
+117,3,2026-03-13,Groceries,Debit,15736,Stop & Shop
+118,9,2026-03-14,Groceries,Debit,9512,ShopRite
+119,3,2026-03-15,Salary,Credit,285000,Payroll deposit
+120,5,2026-03-15,Salary,Credit,1450000,Payroll deposit
+121,8,2026-03-15,Salary,Credit,620000,Payroll deposit
+122,9,2026-03-15,Salary,Credit,310000,Payroll deposit
+123,9,2026-03-15,Dining,Debit,4692,Starbucks
+124,1,2026-03-16,Groceries,Debit,4138,Whole Foods
+125,1,2026-03-16,Travel,Debit,90063,United Airlines
+126,3,2026-03-17,Dining,Debit,7997,Starbucks
+127,5,2026-03-17,Dining,Debit,4499,Shake Shack
+128,9,2026-03-18,Groceries,Debit,18200,Trader Joe's
+129,9,2026-03-18,Travel,Debit,19934,Delta Air Lines
+130,2,2026-03-20,Transfer,Credit,20000,Transfer from checking
+131,4,2026-03-20,Transfer,Credit,50000,Transfer from checking
+132,7,2026-03-20,Transfer,Credit,150000,Transfer from checking
+133,10,2026-03-20,Transfer,Credit,60000,Transfer from checking
+134,8,2026-03-24,Transportation,Debit,743,Uber
+135,8,2026-03-24,Travel,Debit,62473,Delta Air Lines
+136,8,2026-03-26,Groceries,Debit,16838,Trader Joe's
+137,2,2026-03-28,Interest,Credit,828,Monthly interest
+138,4,2026-03-28,Interest,Credit,1500,Monthly interest
+139,5,2026-03-28,Groceries,Debit,14327,Whole Foods
+140,6,2026-03-28,Interest,Credit,2000000,Monthly interest
+141,7,2026-03-28,Interest,Credit,21533,Monthly interest
+142,9,2026-03-28,Transportation,Debit,4808,Uber
+143,10,2026-03-28,Interest,Credit,28667,Monthly interest
+144,3,2026-04-01,Salary,Credit,285000,Payroll deposit
+145,5,2026-04-01,Salary,Credit,1450000,Payroll deposit
+146,8,2026-04-01,Salary,Credit,620000,Payroll deposit
+147,9,2026-04-01,Salary,Credit,310000,Payroll deposit
+148,3,2026-04-02,Rent,Debit,245000,Monthly rent
+149,3,2026-04-02,Dining,Debit,1421,Local Diner
+150,5,2026-04-02,Rent,Debit,950000,Monthly rent
+151,8,2026-04-02,Rent,Debit,520000,Monthly rent
+152,9,2026-04-02,Rent,Debit,230000,Monthly rent
+153,9,2026-04-03,Groceries,Debit,10484,Costco
+154,9,2026-04-03,Dining,Debit,4602,Shake Shack
+155,5,2026-04-05,Utilities,Debit,21741,PSE&G
+156,8,2026-04-05,Dining,Debit,5515,Chipotle
+157,1,2026-04-06,Shopping,Debit,27336,Amazon
+158,8,2026-04-06,Utilities,Debit,12868,Con Edison
+159,1,2026-04-08,Utilities,Debit,8724,Spectrum
+160,8,2026-04-08,Groceries,Debit,12203,Stop & Shop
+161,8,2026-04-09,Groceries,Debit,10193,ShopRite
+162,9,2026-04-09,Groceries,Debit,7840,ShopRite
+163,3,2026-04-10,Groceries,Debit,10633,Whole Foods
+164,3,2026-04-12,Utilities,Debit,8536,Verizon
+165,9,2026-04-12,Utilities,Debit,16177,PSE&G
+166,1,2026-04-13,Dining,Debit,5845,Chipotle
+167,5,2026-04-13,Dining,Debit,2564,Local Diner
+168,3,2026-04-15,Salary,Credit,285000,Payroll deposit
+169,5,2026-04-15,Salary,Credit,1450000,Payroll deposit
+170,8,2026-04-15,Salary,Credit,620000,Payroll deposit
+171,9,2026-04-15,Salary,Credit,310000,Payroll deposit
+172,9,2026-04-15,Transportation,Debit,4750,MTA
+173,1,2026-04-16,Groceries,Debit,19273,Trader Joe's
+174,3,2026-04-19,Groceries,Debit,5497,ShopRite
+175,2,2026-04-20,Transfer,Credit,20000,Transfer from checking
+176,4,2026-04-20,Transfer,Credit,50000,Transfer from checking
+177,5,2026-04-20,Groceries,Debit,5726,Trader Joe's
+178,5,2026-04-20,Transportation,Debit,625,Shell Gas
+179,7,2026-04-20,Transfer,Credit,150000,Transfer from checking
+180,10,2026-04-20,Transfer,Credit,60000,Transfer from checking
+181,6,2026-04-22,Transfer,Debit,2500000,Transfer to brokerage
+182,1,2026-04-23,Transportation,Debit,6284,Shell Gas
+183,8,2026-04-25,Transportation,Debit,894,Uber
+184,1,2026-04-28,Dining,Debit,7170,Starbucks
+185,2,2026-04-28,Interest,Credit,828,Monthly interest
+186,3,2026-04-28,Transportation,Debit,4650,NJ Transit
+187,4,2026-04-28,Interest,Credit,1500,Monthly interest
+188,5,2026-04-28,Groceries,Debit,9589,Whole Foods
+189,6,2026-04-28,Interest,Credit,2000000,Monthly interest
+190,7,2026-04-28,Interest,Credit,21533,Monthly interest
+191,10,2026-04-28,Interest,Credit,28667,Monthly interest
+192,3,2026-05-01,Salary,Credit,285000,Payroll deposit
+193,5,2026-05-01,Salary,Credit,1450000,Payroll deposit
+194,5,2026-05-01,Groceries,Debit,7165,Whole Foods
+195,8,2026-05-01,Salary,Credit,620000,Payroll deposit
+196,9,2026-05-01,Salary,Credit,310000,Payroll deposit
+197,3,2026-05-02,Rent,Debit,245000,Monthly rent
+198,3,2026-05-02,Dining,Debit,658,Shake Shack
+199,5,2026-05-02,Rent,Debit,950000,Monthly rent
+200,8,2026-05-02,Rent,Debit,520000,Monthly rent
+201,8,2026-05-02,Groceries,Debit,13601,ShopRite
+202,9,2026-05-02,Rent,Debit,230000,Monthly rent
+203,1,2026-05-04,Dining,Debit,3146,Shake Shack
+204,1,2026-05-05,Groceries,Debit,12166,Whole Foods
+205,8,2026-05-07,Utilities,Debit,13041,Verizon
+206,8,2026-05-07,Dining,Debit,4688,Blue Bottle Coffee
+207,9,2026-05-07,Utilities,Debit,21167,Verizon
+208,1,2026-05-09,Utilities,Debit,21265,PSE&G
+209,3,2026-05-09,Utilities,Debit,14280,Spectrum
+210,3,2026-05-09,Groceries,Debit,5164,Whole Foods
+211,5,2026-05-09,Utilities,Debit,8647,Spectrum
+212,1,2026-05-10,Shopping,Debit,42138,Target
+213,5,2026-05-12,Transportation,Debit,5071,Shell Gas
+214,9,2026-05-14,Groceries,Debit,4312,Trader Joe's
+215,3,2026-05-15,Salary,Credit,285000,Payroll deposit
+216,5,2026-05-15,Salary,Credit,1450000,Payroll deposit
+217,8,2026-05-15,Salary,Credit,620000,Payroll deposit
+218,9,2026-05-15,Salary,Credit,310000,Payroll deposit
+219,5,2026-05-18,Groceries,Debit,17514,Costco
+220,2,2026-05-20,Transfer,Credit,20000,Transfer from checking
+221,4,2026-05-20,Transfer,Credit,50000,Transfer from checking
+222,7,2026-05-20,Transfer,Credit,150000,Transfer from checking
+223,10,2026-05-20,Transfer,Credit,60000,Transfer from checking
+224,3,2026-05-21,Groceries,Debit,17379,ShopRite
+225,1,2026-05-23,Dining,Debit,7117,Sweetgreen
+226,5,2026-05-23,Dining,Debit,3042,Local Diner
+227,9,2026-05-24,Dining,Debit,6042,Chipotle
+228,8,2026-05-25,Transportation,Debit,4886,Lyft
+229,8,2026-05-26,Groceries,Debit,4807,ShopRite
+230,2,2026-05-28,Interest,Credit,828,Monthly interest
+231,4,2026-05-28,Interest,Credit,1500,Monthly interest
+232,6,2026-05-28,Interest,Credit,2000000,Monthly interest
+233,7,2026-05-28,Interest,Credit,21533,Monthly interest
+234,9,2026-05-28,Groceries,Debit,8824,Trader Joe's
+235,10,2026-05-28,Interest,Credit,28667,Monthly interest
+236,3,2026-06-01,Salary,Credit,285000,Payroll deposit
+237,5,2026-06-01,Salary,Credit,1450000,Payroll deposit
+238,8,2026-06-01,Salary,Credit,620000,Payroll deposit
+239,9,2026-06-01,Salary,Credit,310000,Payroll deposit
+240,3,2026-06-02,Rent,Debit,245000,Monthly rent
+241,5,2026-06-02,Rent,Debit,950000,Monthly rent
+242,8,2026-06-02,Rent,Debit,520000,Monthly rent
+243,9,2026-06-02,Rent,Debit,230000,Monthly rent
+244,3,2026-06-04,Groceries,Debit,12059,Trader Joe's
+245,8,2026-06-06,Utilities,Debit,17792,Con Edison
+246,1,2026-06-08,Utilities,Debit,10371,Verizon
+247,1,2026-06-08,Shopping,Debit,15579,Uniqlo
+248,5,2026-06-08,Utilities,Debit,10173,PSE&G
+249,9,2026-06-09,Utilities,Debit,12653,PSE&G
+250,3,2026-06-10,Utilities,Debit,16510,Spectrum
+251,9,2026-06-10,Groceries,Debit,12901,Trader Joe's
+252,8,2026-06-11,Groceries,Debit,16685,ShopRite
+253,1,2026-06-12,Dining,Debit,6500,Sweetgreen
+254,8,2026-06-13,Transportation,Debit,5848,NJ Transit
+255,3,2026-06-14,Transportation,Debit,3131,MTA
+256,5,2026-06-14,Dining,Debit,1746,Blue Bottle Coffee
+257,9,2026-06-14,Groceries,Debit,14059,Stop & Shop
+258,3,2026-06-15,Salary,Credit,285000,Payroll deposit
+259,5,2026-06-15,Salary,Credit,1450000,Payroll deposit
+260,8,2026-06-15,Salary,Credit,620000,Payroll deposit
+261,9,2026-06-15,Salary,Credit,310000,Payroll deposit
+262,9,2026-06-15,Dining,Debit,7844,Blue Bottle Coffee
+263,9,2026-06-16,Transportation,Debit,6328,NJ Transit
+264,3,2026-06-17,Travel,Debit,33157,Hilton
+265,5,2026-06-17,Groceries,Debit,9956,ShopRite
+266,8,2026-06-17,Groceries,Debit,13634,Stop & Shop
+267,8,2026-06-18,Dining,Debit,2685,Sweetgreen
+268,3,2026-06-19,Dining,Debit,4949,Starbucks
+269,2,2026-06-20,Transfer,Credit,20000,Transfer from checking
+270,4,2026-06-20,Transfer,Credit,50000,Transfer from checking
+271,7,2026-06-20,Transfer,Credit,150000,Transfer from checking
+272,10,2026-06-20,Transfer,Credit,60000,Transfer from checking
+273,1,2026-06-22,Transportation,Debit,1882,Lyft
+274,3,2026-06-22,Groceries,Debit,14351,Whole Foods
+275,5,2026-06-23,Groceries,Debit,17788,Whole Foods
+276,1,2026-06-26,Groceries,Debit,7042,Stop & Shop
+277,1,2026-06-28,Dining,Debit,1234,Chipotle
+278,1,2026-06-28,Travel,Debit,27099,Marriott
+279,2,2026-06-28,Interest,Credit,828,Monthly interest
+280,4,2026-06-28,Interest,Credit,1500,Monthly interest
+281,6,2026-06-28,Interest,Credit,2000000,Monthly interest
+282,7,2026-06-28,Interest,Credit,21533,Monthly interest
+283,10,2026-06-28,Interest,Credit,28667,Monthly interest
+284,1,2026-07-01,Shopping,Debit,5528,Target
+285,3,2026-07-01,Salary,Credit,285000,Payroll deposit
+286,5,2026-07-01,Salary,Credit,1450000,Payroll deposit
+287,8,2026-07-01,Salary,Credit,620000,Payroll deposit
+288,9,2026-07-01,Salary,Credit,310000,Payroll deposit
+289,3,2026-07-02,Rent,Debit,245000,Monthly rent
+290,5,2026-07-02,Rent,Debit,950000,Monthly rent
+291,8,2026-07-02,Rent,Debit,520000,Monthly rent
+292,9,2026-07-02,Rent,Debit,230000,Monthly rent
+293,1,2026-07-03,Groceries,Debit,11196,ShopRite
+294,5,2026-07-06,Travel,Debit,115472,Hilton
+295,9,2026-07-06,Utilities,Debit,8267,Verizon
+296,5,2026-07-07,Utilities,Debit,19130,Spectrum
+297,9,2026-07-07,Travel,Debit,73069,Hilton
+298,1,2026-07-08,Dining,Debit,3862,Sweetgreen
+299,3,2026-07-08,Groceries,Debit,8335,Whole Foods
+300,3,2026-07-08,Dining,Debit,3481,Blue Bottle Coffee
+301,3,2026-07-08,Travel,Debit,33906,Hilton
+302,9,2026-07-08,Groceries,Debit,16051,Trader Joe's
+303,1,2026-07-09,Utilities,Debit,14445,Con Edison
+304,8,2026-07-09,Transportation,Debit,3051,MTA
+305,3,2026-07-11,Utilities,Debit,14099,Spectrum
+306,8,2026-07-12,Utilities,Debit,10246,Verizon
+307,9,2026-07-14,Dining,Debit,7278,Shake Shack
+308,3,2026-07-15,Salary,Credit,285000,Payroll deposit
+309,5,2026-07-15,Salary,Credit,1450000,Payroll deposit
+310,8,2026-07-15,Salary,Credit,620000,Payroll deposit
+311,8,2026-07-15,Dining,Debit,1869,Blue Bottle Coffee
+312,9,2026-07-15,Salary,Credit,310000,Payroll deposit
+313,1,2026-07-16,Dining,Debit,11515,Starbucks
+314,8,2026-07-16,Groceries,Debit,11339,ShopRite
+315,2,2026-07-20,Transfer,Credit,20000,Transfer from checking
+316,4,2026-07-20,Transfer,Credit,50000,Transfer from checking
+317,5,2026-07-20,Groceries,Debit,13897,Stop & Shop
+318,5,2026-07-20,Dining,Debit,8870,Chipotle
+319,7,2026-07-20,Transfer,Credit,150000,Transfer from checking
+320,10,2026-07-20,Transfer,Credit,60000,Transfer from checking
+321,1,2026-07-21,Transportation,Debit,5015,NJ Transit
+322,5,2026-07-22,Groceries,Debit,20904,Costco
+323,9,2026-07-23,Groceries,Debit,10510,Whole Foods
+324,3,2026-07-25,Groceries,Debit,6992,Stop & Shop
+325,8,2026-07-27,Groceries,Debit,12586,Costco
+326,2,2026-07-28,Interest,Credit,828,Monthly interest
+327,4,2026-07-28,Interest,Credit,1500,Monthly interest
+328,6,2026-07-28,Interest,Credit,2000000,Monthly interest
+329,7,2026-07-28,Interest,Credit,21533,Monthly interest
+330,10,2026-07-28,Interest,Credit,28667,Monthly interest
+331,3,2026-08-01,Salary,Credit,285000,Payroll deposit
+332,5,2026-08-01,Salary,Credit,1450000,Payroll deposit
+333,8,2026-08-01,Salary,Credit,620000,Payroll deposit
+334,9,2026-08-01,Salary,Credit,310000,Payroll deposit
+335,3,2026-08-02,Rent,Debit,245000,Monthly rent
+336,5,2026-08-02,Rent,Debit,950000,Monthly rent
+337,8,2026-08-02,Rent,Debit,520000,Monthly rent
+338,9,2026-08-02,Rent,Debit,230000,Monthly rent
+339,5,2026-08-03,Travel,Debit,103426,Delta Air Lines
+340,9,2026-08-04,Groceries,Debit,4341,ShopRite
+341,1,2026-08-05,Utilities,Debit,20036,Spectrum
+342,8,2026-08-05,Utilities,Debit,21558,Verizon
+343,8,2026-08-05,Groceries,Debit,11316,Trader Joe's
+344,6,2026-08-06,Transfer,Debit,4000000,Transfer to brokerage
+345,8,2026-08-07,Groceries,Debit,4167,Costco
+346,9,2026-08-07,Utilities,Debit,15926,PSE&G
+347,1,2026-08-08,Dining,Debit,9499,Sweetgreen
+348,5,2026-08-08,Utilities,Debit,13449,Con Edison
+349,3,2026-08-09,Travel,Debit,67689,Marriott
+350,8,2026-08-09,Travel,Debit,118518,Marriott
+351,1,2026-08-10,Dining,Debit,6989,Chipotle
+352,5,2026-08-11,Groceries,Debit,15923,ShopRite
+353,3,2026-08-12,Utilities,Debit,21065,Verizon
+354,3,2026-08-15,Salary,Credit,285000,Payroll deposit
+355,5,2026-08-15,Salary,Credit,1450000,Payroll deposit
+356,8,2026-08-15,Salary,Credit,620000,Payroll deposit
+357,9,2026-08-15,Salary,Credit,310000,Payroll deposit
+358,1,2026-08-16,Groceries,Debit,3693,ShopRite
+359,1,2026-08-16,Transportation,Debit,537,Lyft
+360,8,2026-08-16,Dining,Debit,2474,Local Diner
+361,1,2026-08-18,Shopping,Debit,38291,Apple Store
+362,5,2026-08-18,Transportation,Debit,726,MTA
+363,3,2026-08-19,Groceries,Debit,4388,Whole Foods
+364,9,2026-08-19,Dining,Debit,6749,Chipotle
+365,9,2026-08-19,Travel,Debit,108520,United Airlines
+366,2,2026-08-20,Transfer,Credit,20000,Transfer from checking
+367,3,2026-08-20,Groceries,Debit,4383,Stop & Shop
+368,4,2026-08-20,Transfer,Credit,50000,Transfer from checking
+369,7,2026-08-20,Transfer,Credit,150000,Transfer from checking
+370,10,2026-08-20,Transfer,Credit,60000,Transfer from checking
+371,3,2026-08-21,Dining,Debit,7622,Sweetgreen
+372,1,2026-08-22,Travel,Debit,70994,United Airlines
+373,5,2026-08-25,Groceries,Debit,17313,ShopRite
+374,9,2026-08-25,Groceries,Debit,8866,ShopRite
+375,5,2026-08-27,Dining,Debit,1941,Chipotle
+376,2,2026-08-28,Interest,Credit,828,Monthly interest
+377,4,2026-08-28,Interest,Credit,1500,Monthly interest
+378,6,2026-08-28,Interest,Credit,2000000,Monthly interest
+379,7,2026-08-28,Interest,Credit,21533,Monthly interest
+380,10,2026-08-28,Interest,Credit,28667,Monthly interest
+381,1,2026-09-01,Dining,Debit,8382,Chipotle
+382,3,2026-09-01,Salary,Credit,285000,Payroll deposit
+383,5,2026-09-01,Salary,Credit,1450000,Payroll deposit
+384,5,2026-09-01,Dining,Debit,8698,Shake Shack
+385,8,2026-09-01,Salary,Credit,620000,Payroll deposit
+386,9,2026-09-01,Salary,Credit,310000,Payroll deposit
+387,3,2026-09-02,Rent,Debit,245000,Monthly rent
+388,5,2026-09-02,Rent,Debit,950000,Monthly rent
+389,8,2026-09-02,Rent,Debit,520000,Monthly rent
+390,9,2026-09-02,Rent,Debit,230000,Monthly rent
+391,1,2026-09-06,Utilities,Debit,19045,PSE&G
+392,5,2026-09-06,Utilities,Debit,10569,Spectrum
+393,3,2026-09-07,Utilities,Debit,13135,Verizon
+394,5,2026-09-07,Transportation,Debit,3206,MTA
+395,8,2026-09-07,Groceries,Debit,6305,Trader Joe's
+396,5,2026-09-08,Groceries,Debit,18727,Costco
+397,9,2026-09-08,Utilities,Debit,17314,Spectrum
+398,8,2026-09-10,Utilities,Debit,10581,Con Edison
+399,9,2026-09-10,Dining,Debit,4230,Chipotle
+400,1,2026-09-12,Groceries,Debit,20956,Stop & Shop
+401,1,2026-09-12,Transportation,Debit,5506,Lyft
+402,3,2026-09-14,Dining,Debit,4997,Shake Shack
+403,3,2026-09-15,Salary,Credit,285000,Payroll deposit
+404,5,2026-09-15,Salary,Credit,1450000,Payroll deposit
+405,8,2026-09-15,Salary,Credit,620000,Payroll deposit
+406,9,2026-09-15,Salary,Credit,310000,Payroll deposit
+407,1,2026-09-17,Shopping,Debit,44937,Best Buy
+408,8,2026-09-18,Groceries,Debit,3832,Costco
+409,2,2026-09-20,Transfer,Credit,20000,Transfer from checking
+410,3,2026-09-20,Groceries,Debit,19343,Stop & Shop
+411,4,2026-09-20,Transfer,Credit,50000,Transfer from checking
+412,5,2026-09-20,Groceries,Debit,15918,ShopRite
+413,7,2026-09-20,Transfer,Credit,150000,Transfer from checking
+414,10,2026-09-20,Transfer,Credit,60000,Transfer from checking
+415,9,2026-09-21,Groceries,Debit,19583,Stop & Shop
+416,1,2026-09-22,Dining,Debit,6671,Starbucks
+417,3,2026-09-24,Groceries,Debit,20596,ShopRite
+418,8,2026-09-24,Dining,Debit,7258,Chipotle
+419,9,2026-09-26,Groceries,Debit,4065,Whole Foods
+420,2,2026-09-28,Interest,Credit,828,Monthly interest
+421,4,2026-09-28,Interest,Credit,1500,Monthly interest
+422,6,2026-09-28,Interest,Credit,2000000,Monthly interest
+423,7,2026-09-28,Interest,Credit,21533,Monthly interest
+424,10,2026-09-28,Interest,Credit,28667,Monthly interest
