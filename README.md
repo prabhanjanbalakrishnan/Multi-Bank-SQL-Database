@@ -9,15 +9,16 @@ I built this because I wanted to learn how to design a database and analyze it f
 ## Database Design
 
 This database has four tables linked by foreign keys:
-- **Customers.** One row per customer;  customer_id is the Primary Key (PK), first_name, last_name, address, email
-- **Banks**. One row per bank; bank_id (PK), bank_name
-- **Accounts**. One row per bank account; account_id (PK), customer_id is one of the Foreign Keys (FK), bank_id (FK), account_number, account_type, balance
-- **Transactions**. One row per transaction; transaction_id (PK), account_id (FK), transaction_date, category, transaction_type, transaction_amount_cents, description
+- **Customers:** One row per customer;  customer_id is the Primary Key (PK), first_name, last_name, address, email
+- **Banks:** One row per bank; bank_id (PK), bank_name
+- **Accounts:** One row per bank account; account_id (PK), customer_id is one of the Foreign Keys (FK), bank_id (FK), account_number, account_type, balance
+- **Transactions:** One row per transaction; transaction_id (PK), account_id (FK), transaction_date, category, transaction_type, transaction_amount_cents, description
 
 One customer can have many accounts, one bank can hold many accounts, and one account can have many transactions.
 
 '''
-customers -< accounts >- banks
+customers --< accounts >-- banks
+                |
                 |
                 ^
             transactions
@@ -25,13 +26,13 @@ customers -< accounts >- banks
 
 ## Key Design Decisions
 
-- **Money is stored in cents as 'INTEGER'.** Decimal numbers can round incorrectly ('0.1 + 0.2' gives '0.300000000004'), so $1,523.75 is stored as '152375'. Queries devide by '100.0' only when displaying in dollars.
-- **Account numbers are 'TEXT".** They are labels, not numbers, so leading zeros like '0001' are kept and no math is implied. 
-- **An account number is unique within its bank, not across banks.** UNIQUE (bank_id, account_number)' ;ets acount '0001' exists at four different banks while blocking a duplicate at the same bank.. 
-- **Bank names are unique.** A duplicae bank slipped in during testing, so I removed it and added a unique index ('idx_bank_name') to block repeats.
-- **Transactions link to the account only.** The customer and account type are reached by joining through 'accounts', so each fac is stored in one place and can't fall out of sync.
-- **Amounts are always positive, with a 'transaction_type' column.** ('Debit' or 'Credit') saying whether money went out or came in.
-- **Dates are stored as 'YYYY-MM-DD' text (ISO 8601).** Alphabetical order matches chronologial order so sorting and date ranges work correctly. 
+- **Money is stored in cents as 'INTEGER':** Decimal numbers can round incorrectly ('0.1 + 0.2' gives '0.300000000004'), so $1,523.75 is stored as '152375'. Queries devide by '100.0' only when displaying in dollars.
+- **Account numbers are 'TEXT":** They are labels, not numbers, so leading zeros like '0001' are kept and no math is implied. 
+- **An account number is unique within its bank, not across banks:** UNIQUE (bank_id, account_number)' ;ets acount '0001' exists at four different banks while blocking a duplicate at the same bank.. 
+- **Bank names are unique:** A duplicae bank slipped in during testing, so I removed it and added a unique index ('idx_bank_name') to block repeats.
+- **Transactions link to the account only:** The customer and account type are reached by joining through 'accounts', so each fac is stored in one place and can't fall out of sync.
+- **Amounts are always positive, with a 'transaction_type' column:** ('Debit' or 'Credit') saying whether money went out or came in.
+- **Dates are stored as 'YYYY-MM-DD' text (ISO 8601):** Alphabetical order matches chronologial order so sorting and date ranges work correctly. 
 
 ## Analysis and Findings
 
@@ -51,9 +52,9 @@ The queries live in 'analysis.sql'
 
 A few judgment calls behind these numbers:
 
-- **Spending means debits only.** Adding every row mixed money in amd money out into a meaningless total
-- **Transfers are excluded from spending.** Two large brokerage transfers aren't consumer spending and would distort the category ranking.
-- **Spikes get a drill-down.** When a month stands out, I break it down by category to find the cause rather than stopping at the total. 
+- **Spending means debits only:** Adding every row mixed money in amd money out into a meaningless total
+- **Transfers are excluded from spending:** Two large brokerage transfers aren't consumer spending and would distort the category ranking.
+- **Spikes get a drill-down:** When a month stands out, I break it down by category to find the cause rather than stopping at the total. 
 
 
 
@@ -84,11 +85,11 @@ sqlite3 bank.db < analysis.sql
 
 ## What I Learnt
 
-- **Leetcode Practice.** This was a great way to practice Leetcode from scratch. I was able to create my own dataset and practice Leetcode with it. 
-- **Knowing my own data made my queries trustworthy**. By creating my own dataset, I was able to understand my own data, which allowed me to verify whether the queries I wrote yielded the correct results. 
-- **Testing Rules By Breaking Them.** I inserted bad data on purpose to see certain errors to check if my rules were working. 
-- **Reading Error Messages.** Most errors pointed just after the real mistake. Many of my mistakes were simple ones such as missing a comma, adding an extra comma somewhere, extra/missed parentheses, closing the query off with a semicolon. 
-- **Business judgement matters as much as syntax.** Deciding what counts as spending, excluding transfers, and noticing that a text search missed a Brooklyn address changed the answers more than any single SQL keyword. 
+- **Leetcode Practice:** This was a great way to practice Leetcode from scratch. I was able to create my own dataset and practice Leetcode with it. 
+- **Knowing my own data made my queries trustworthy:** By creating my own dataset, I was able to understand my own data, which allowed me to verify whether the queries I wrote yielded the correct results. 
+- **Testing Rules By Breaking Them:** I inserted bad data on purpose to see certain errors to check if my rules were working. 
+- **Reading Error Messages:** Most errors pointed just after the real mistake. Many of my mistakes were simple ones such as missing a comma, adding an extra comma somewhere, extra/missed parentheses, closing the query off with a semicolon. 
+- **Business judgement matters as much as syntax:** Deciding what counts as spending, excluding transfers, and noticing that a text search missed a Brooklyn address changed the answers more than any single SQL keyword. 
 
 ## What I Would Add Next
 
